@@ -9,8 +9,8 @@ public class EnemySpawner : MonoBehaviour
     Transform player;
     float spawnDelay;
 
-    float maxX = 10;
-    float maxY = 16;
+    float maxX = 5;
+    float maxY = 8;
 
     public int enemyCount;
 
@@ -71,11 +71,11 @@ public class EnemySpawner : MonoBehaviour
                 pos.y = player.transform.position.y - 10f;
                 break;
             case Direction.West:
-                pos.x = player.transform.position.x - 16f;
+                pos.x = player.transform.position.x - 5f;
                 pos.y = Random.Range(player.transform.position.y - maxY, player.transform.position.y + maxY);
                 break;
             case Direction.East:
-                pos.x = player.transform.position.x + 15f;
+                pos.x = player.transform.position.x + 5f;
                 pos.y = Random.Range(player.transform.position.y - maxY, player.transform.position.y + maxY);
                 break;
         }

@@ -222,7 +222,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 82442496}
         m_TargetAssemblyTypeName: Title, Assembly-CSharp
-        m_MethodName: StartButton
+        m_MethodName: ExitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

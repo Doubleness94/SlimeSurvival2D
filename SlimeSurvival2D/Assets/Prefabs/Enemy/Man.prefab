@@ -10,11 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 8725951970153008793}
   - component: {fileID: 8725951970153008798}
-  - component: {fileID: 8725951970153008799}
   - component: {fileID: 8725951970153008797}
   - component: {fileID: 6077137324707386495}
   - component: {fileID: 3303288649308631910}
   - component: {fileID: 4407312308989869133}
+  - component: {fileID: 8725951970153008799}
+  - component: {fileID: 3125910193422029676}
   m_Layer: 7
   m_Name: Man
   m_TagString: Enemy
@@ -89,26 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8725951970153008799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8725951970153008802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed31fb1d470bbdf438455a023e55cb5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyType: 0
-  target: {fileID: 0}
-  isDead: 0
-  speed: 25
-  maxHealth: 30
-  curHealth: 30
-  attackPower: 3
-  defencePower: 1
 --- !u!50 &8725951970153008797
 Rigidbody2D:
   serializedVersion: 4
@@ -182,3 +163,35 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.8, y: 1.1111112}
   m_Direction: 0
+--- !u!114 &8725951970153008799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725951970153008802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed31fb1d470bbdf438455a023e55cb5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyType: 0
+  target: {fileID: 0}
+  isDead: 0
+  speed: 25
+  maxHealth: 30
+  curHealth: 30
+  attackPower: 3
+  defencePower: 1
+--- !u!114 &3125910193422029676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725951970153008802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb31a6e3a43fd62489cdd491d05b2581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

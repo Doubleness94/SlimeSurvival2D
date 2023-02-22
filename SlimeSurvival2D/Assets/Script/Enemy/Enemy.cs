@@ -73,8 +73,7 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        DropCrystal();
-        //킬카운트
+        DropRandom();
         StartCoroutine(DieAnimation());
         rigid.velocity = Vector2.zero;
         EnemySpawner.instance.enemyCount--;
@@ -95,13 +94,36 @@ public class Enemy : MonoBehaviour
         GameObject crystal = CrystalPooling.instance.GetCrystal();
         crystal.transform.position = transform.position;
     }
-    
-    void OnTriggerEnter2D(Collider2D collision)
+
+    void DropItem()
     {
-        if(collision.gameObject.tag == "Player")
+        GameObject item = ItemPooling.instance.Get(0);
+        item.transform.position = transform.position;
+    }
+
+    void DropRandom()
+    {
+        int random = Random.Range(0, 10);
+        switch (random)
         {
-            
+            case 0:
+            case 1:
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+                DropCrystal();
+                break;
+            case 9:
+                DropItem();
+                break;
+
         }
+
     }
 
     void OnTriggerStay2D(Collider2D collision)
