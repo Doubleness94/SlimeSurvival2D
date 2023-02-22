@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Weapon">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAFAEIAAEAAACAAAAUA=</HashCode>
+      <FileName>Assets\Script\Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Twister">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Weapon" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="3.146" />
+        <Point X="5.125" Y="3.146" />
+        <Point X="5.125" Y="4.116" />
+        <Point X="5.5" Y="4.116" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Weapon\Twister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterGun">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Weapon" FixedFromPoint="true">
+      <Path>
+        <Point X="4.75" Y="3.146" />
+        <Point X="5.125" Y="3.146" />
+        <Point X="5.125" Y="2.448" />
+        <Point X="5.5" Y="2.448" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Weapon\WaterGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
