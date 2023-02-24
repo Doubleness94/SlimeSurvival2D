@@ -10190,7 +10190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367af76e1f602b34da3dab2b3f4c4df7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 5041308274360387222, guid: 20ce76672178a104398a68a1b03e7bec, type: 3}
   delay: 0.5
   pos: {fileID: 224066264}
   speed: 10
