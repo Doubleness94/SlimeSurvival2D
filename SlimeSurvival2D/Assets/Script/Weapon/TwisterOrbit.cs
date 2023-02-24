@@ -24,8 +24,4 @@ public class TwisterOrbit : MonoBehaviour
         offSet = transform.position - player.position;
     }
 
-    public void ItemLevel()
-    {
-
-    }
 }

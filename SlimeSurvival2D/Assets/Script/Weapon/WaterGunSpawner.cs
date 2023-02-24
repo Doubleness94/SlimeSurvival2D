@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class WaterGunSpawner : MonoBehaviour
 {
-    public GameObject bullet;
     public float delay = 0.5f;
     public Transform pos;
     public float speed;
