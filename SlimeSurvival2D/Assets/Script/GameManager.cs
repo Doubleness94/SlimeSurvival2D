@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
     public WaterGunSpawner waterGun;
     public TwisterOrbit twister;
 
-    //UI    
     [SerializeField]
     private RectTransform Hp_Bar;
     [SerializeField]
