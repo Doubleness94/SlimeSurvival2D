@@ -22,7 +22,7 @@ public class EnemyPooling : MonoBehaviour
 
     void Initialize()
     {
-        for (int i = 0; i < 500; i++)
+        for (int i = 0; i < 50; i++)
         {            
             GameObject manEnemy = Instantiate(instance.manPrefab);
             Enemy enemy = manEnemy.GetComponent<Enemy>();
